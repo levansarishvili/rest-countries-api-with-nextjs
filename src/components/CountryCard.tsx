@@ -9,7 +9,7 @@ export default function CountryCard({
   flag_img,
 }: CountryCardProps) {
   return (
-    <div className="max-w-[267px] w-full flex flex-col gap-6 bg-card rounded-lg shadow-md overflow-hidden pb-10">
+    <div className="max-w-[267px] w-full flex flex-col gap-6 bg-card rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:cursor-pointer overflow-hidden pb-10">
       <div className="w-full overflow-hidden h-[160px]">
         <Image
           src={flag_img}
