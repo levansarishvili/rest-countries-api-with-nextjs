@@ -26,6 +26,7 @@ export default async function Home() {
             region={country.region}
             capital={country.capital ? country.capital[0] : "N/A"}
             flag_img={country.flags.png}
+            code={country.ccn3}
           />
         ))}
       </div>

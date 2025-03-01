@@ -4,6 +4,7 @@ export interface CountryCardProps {
   region: string;
   capital: string;
   flag_img: string;
+  code: string;
 }
 
 export interface CountryType {
